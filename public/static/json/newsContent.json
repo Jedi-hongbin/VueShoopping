@@ -1,0 +1,31 @@
+[{
+		"title": "Node.js 后端框架 star 排名（2020年3月更新），Fastify 超越 Loopback",
+		"time": "2019-10-01",
+		"content": "<img src=/static/img/node.png> <img src=/static/img/node1.png> nest.js 增长了 0.6k 成为增长最快的框架"
+	},
+	{
+		"title": "总结vue知识体系之实用技巧",
+		"time": "2019-08-20",
+		"content": " &nbsp;&nbsp;<a href=https://baijiahao.baidu.com/s?id=1660411411707308862&wfr=spider&for=pc>原文地址</a> <br><p>&nbsp;&nbsp;vue 作为目前前端三大框架之一，对于前端开发者可以说是必备技能。那么怎么系统地学习和掌握 vue 呢？为此，我做了简单的知识体系体系总结，不足之处请各位大佬多多包涵和指正，如果喜欢的可以点个小赞！本文主要讲述一些vue开发中的实用技巧.</p><img src=/static/img/vue.jpeg > <b>监听组件的生命周期</b><br><p>比如有父组件 Parent 和子组件 Child，如果父组件监听到子组件挂载 mounted 就做一些逻辑处理，常规的写法可能如下：//Parent.vue<Child @mounted='doSomething'/>// Child.vuemounted() { this.$emit('mounted');}复制代码此外，还有一种特别简单的方式，子组件不需要任何处理，只需要在父组件引用的时候通过@hook 来监听即可，代码如下：<Child @hook:mounted='doSomething' /> <Child @hook:updated='doSomething' />复制代码当然这里不仅仅是可以监听 mounted，其它的生命周期事件，例如：created，updated 等都可以。</p>"
+	}, {
+		"title": "少即是好，Less，but better",
+		"time": "2017-07-23",
+		"content": "<p>&nbsp;&nbsp;&nbsp;《365天写公号》项目第357篇，<br>感谢订阅本文约700字，<br>图文阅读需耗时2分钟这几天在设计几个东西，怎么看怎么丑。最后发现原因是“素材太多”。只要想表达的东西多了，怎么捯饬，最终终归是丑的。只好放弃对美的追求。承认自己没办法。还得承认，<br>“少即是好”。 </p> <img src=/static/img/less.jpg> <p>当然，“少即是好”这个设计理念，不单单是和设计有关的哲学。和生活、思考、生存以及人际交往同样如此。有的人，比如微信好友吧，早早就满了5000个（早先微信放开好友数时，我认识一个人加了30万个好友，疯了。）再要用微信，只好新注册一个号，在老号上标记，微信已满，加新号xxx。我觉得他们都太好玩了，连好友数都那么贪心。有人说，这是他们社交能力强，所以加满5000不在话下。我还认识一人，好称做投资，也没看他投资成功啥项目。他已经加了第二个5000满了，不想带第三部手机，再想加，只好删了。还有人，进入2019年，突然想断舍离了，居然是从删微信好友开始的。元旦一天，删了1000多个好友。哈哈哈。</p>"
+	}, {
+		"title": "Webpack打包全世界",
+		"time": "2020-03-01",
+		"content": " <p>现代前端开发中，由于要不断的站在巨人的肩膀上前行，导致脚下巨人越来越多。项目结构越来越复杂，用到的技术越来越牛X，html+css+js各自在自己的发展路上一骑绝尘，甩的后方的前端开发者已经看不到前方。</p><img src=/static/img/webpack.png> <p>Webpack的出现，将前端不断出现的新模块、新资源、新需求，进行自动化整合、梳理、输出，使得前端开发者更加专注业务需求。<br>核心和概念本质上，webpack 是一个现代 JavaScript 应用程序的静态模块打包器(module bundler)。<br>当 webpack 处理应用程序时，它会递归地构建一个依赖关系图(dependency graph)，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。什么鬼东西，webpack就是把你写好的只有你自己认识的程序，整理翻译打包成漂亮的，大家都能看的程序。<br>webpack中有四个核心的概念。<br> entry、output、loader、plugins。 按照流程这四个概念应该是<br>入口entry（你要从哪里收拾）<br>加载loader（开始收拾<br>）插件plugins（收拾完还觉的不满意就再加点功能）<br>出口output（收拾整理完之后放哪里）当然这是个基本理解。<br>实际配置文件格式直接去官网上扒个模版就好,这里是个样子</p>"
+	}, {
+		"title": "React",
+		"time": "2019-05-25",
+		"content": " &nbsp;&nbsp;<a href=https://baijiahao.baidu.com/s?id=1660411411707308862&wfr=spider&for=pc>原文地址</a> <br><p>vue 作为目前前端三大框架之一，对于前端开发者可以说是必备技能。那么怎么系统地学习和掌握 vue 呢？为此，我做了简单的知识体系体系总结，不足之处请各位大佬多多包涵和指正，如果喜欢的可以点个小赞！本文主要讲述一些vue开发中的实用技巧.</p><img src=/static/img/vue.jpeg > <b>监听组件的生命周期</b><br><p>比如有父组件 Parent 和子组件 Child，如果父组件监听到子组件挂载 mounted 就做一些逻辑处理，常规的写法可能如下：//Parent.vue<Child @mounted='doSomething'/>// Child.vuemounted() { this.$emit('mounted');}复制代码此外，还有一种特别简单的方式，子组件不需要任何处理，只需要在父组件引用的时候通过@hook 来监听即可，代码如下：<Child @hook:mounted='doSomething' /> <Child @hook:updated='doSomething' />复制代码当然这里不仅仅是可以监听 mounted，其它的生命周期事件，例如：created，updated 等都可以。</p>"
+	}, {
+		"title": "jQuery",
+		"time": "2020-01-20",
+		"content": " &nbsp;&nbsp;<a href=https://baijiahao.baidu.com/s?id=1660411411707308862&wfr=spider&for=pc>原文地址</a> <br><p>&nbsp;vue 作为目前前端三大框架之一，对于前端开发者可以说是必备技能。那么怎么系统地学习和掌握 vue 呢？为此，我做了简单的知识体系体系总结，不足之处请各位大佬多多包涵和指正，如果喜欢的可以点个小赞！本文主要讲述一些vue开发中的实用技巧.</p><img src=/static/img/vue.jpeg > <b>监听组件的生命周期</b><br><p>比如有父组件 Parent 和子组件 Child，如果父组件监听到子组件挂载 mounted 就做一些逻辑处理，常规的写法可能如下：//Parent.vue<Child @mounted='doSomething'/>// Child.vuemounted() { this.$emit('mounted');}复制代码此外，还有一种特别简单的方式，子组件不需要任何处理，只需要在父组件引用的时候通过@hook 来监听即可，代码如下：<Child @hook:mounted='doSomething' /> <Child @hook:updated='doSomething' />复制代码当然这里不仅仅是可以监听 mounted，其它的生命周期事件，例如：created，updated 等都可以。</p>"
+	}, {
+		"title": "Git--distributed-is-the-new-centralized",
+		"time": "2018-01-22",
+		"content": "<p>&nbsp;&nbsp; Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p><img src=/static/img/git.png> <img src=/static/img/git1.png><p>It's also interesting to note that the size of the data on the client side is very similar even though Git also has every version of every file for the entire history of the project. This illustrates how efficient it is at compressing and storing data on the client side.</p>"
+	}
+]
